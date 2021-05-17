@@ -6,6 +6,7 @@ import App from './App';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <div id="top-level"></div>
   </React.StrictMode>,
   document.getElementById('root')
 );
